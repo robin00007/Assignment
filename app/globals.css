@@ -25,3 +25,23 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+.color-primary-white{
+  background-color: #F5F5F5;
+}
+.LegendLineChart{
+  position: absolute !important;
+  top: 0px !important;
+  right: 100px !important;
+}
+.circle{
+  border-radius: 50%;
+}
+.pieColorFirst{
+  background-color: #98D89E !important;
+}
+.pieColorSecond{
+  background-color: #EE8484 !important ;
+}
+.pieColorThird{
+  background-color: #F6DC7D !important;
+}
