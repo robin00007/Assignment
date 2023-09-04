@@ -44,7 +44,7 @@ export default function Home() {
               <button className="bg-black text-white w-full bg-primary rounded p-2 text-sm font-bold my-2">Sign In</button>
             </div>
   
-            <p className="flex justify-center flex-1 items-center text-xs font-extralight">Don't have an account? <span className="text-blue-600 mx-2">register here</span>  </p>
+            <p className="flex justify-center flex-1 items-center text-xs font-extralight">{`Don't`} have an account? <span className="text-blue-600 mx-2">register here</span>  </p>
           </div>
         </div>
       </div>
