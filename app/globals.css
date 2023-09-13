@@ -6,8 +6,8 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-  --primary-color:#4285F4;
-  --primary-white-bg:#F8FAFF;
+  --primary-color: #4285f4;
+  --primary-white-bg: #f8faff;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -18,13 +18,13 @@
   }
 }
 
-.bg-primary{
+.bg-primary {
   background-color: var(--primary-color);
 }
-.bg-primary-white{
+.bg-primary-white {
   background-color: var(--primary-white-bg);
 }
-.leftDivHome{
+.leftDivHome {
   clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
 }
 
@@ -37,23 +37,26 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
-.color-primary-white{
-  background-color: #F5F5F5;
+.color-primary-white {
+  background-color: #f5f5f5;
 }
-.LegendLineChart{
+.LegendLineChart {
   position: absolute !important;
   top: 0px !important;
   right: 100px !important;
 }
-.circle{
+.circle {
   border-radius: 50%;
 }
-.pieColorFirst{
-  background-color: #98D89E !important;
+.pieColorFirst {
+  background-color: #98d89e !important;
 }
-.pieColorSecond{
-  background-color: #EE8484 !important ;
+.pieColorSecond {
+  background-color: #ee8484 !important ;
 }
-.pieColorThird{
-  background-color: #F6DC7D !important;
+.pieColorThird {
+  background-color: #f6dc7d !important;
+}
+.model-container {
+  background-color: rgba(0, 0, 0, 0.77);
 }

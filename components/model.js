@@ -1,12 +1,13 @@
 import { useState } from "react";
 import BasicDetails from "./basicDetails";
 import ContactDetails from "./contactDetails";
+import "../app/globals.css";
 
 const Model = ({ model, setModel, userData, setUserData }) => {
   const [active, setActive] = useState("basic");
   return (
     <div
-      className="bg-pink-300 outsideModel flex justify-center items-center h-full w-full absolute top-0 left-0"
+      className="model-container bg-pink-300 outsideModel flex justify-center items-center h-full w-full absolute top-0 left-0"
       onClick={(e) => {
         setModel(false);
       }}
